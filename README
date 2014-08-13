@@ -11,17 +11,17 @@ SYNOPSIS
 
 DESCRIPTION
      The same of:
- 
+
             [NameFromDirectory]
             [VersionFromModule]
 
             [MetaResources]
             repository.type   = git
-            repository.url    = git://github.com/gabrielmad/${dist}
-            repository.web    = http://github.com/gabrielmad/${dist}
-            bugtracker.web    = http://github.com/gabrielmad/${dist}/issues
-            bugtracker.mailto = bug-${dist}@rt.cpan.org
-            homepage          = http://metacpan.org/release/${dist}
+            repository.url    = git://github.com/gabrielmad/%a
+            repository.web    = http://github.com/gabrielmad/%a
+            bugtracker.web    = http://github.com/gabrielmad/%a/issues
+            bugtracker.mailto = bug-%a@rt.cpan.org
+            homepage          = http://metacpan.org/release/%a
 
             [GatherDir]
             include_dotfiles = 1
