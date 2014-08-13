@@ -90,6 +90,8 @@ version 0.01
 
 =head1 DESCRIPTION
 
+ The same of:
+ 
 	[NameFromDirectory]
 	[VersionFromModule]
 

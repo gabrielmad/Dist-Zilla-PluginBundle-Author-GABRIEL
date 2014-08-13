@@ -10,6 +10,8 @@ SYNOPSIS
         [@Author::GABRIEL]
 
 DESCRIPTION
+     The same of:
+ 
             [NameFromDirectory]
             [VersionFromModule]
 
