@@ -119,6 +119,8 @@ sub configure {
 	return;
 }
 
+=for Pod::Coverage configure
+
 =for HTML <a href="https://travis-ci.org/gabrielmad/Dist-Zilla-PluginBundle-Author-GABRIEL"><img src="https://travis-ci.org/gabrielmad/Dist-Zilla-PluginBundle-Author-GABRIEL.svg?branch=build%2Fmaster"></a>
 =cut
 
