@@ -21,7 +21,7 @@ sub configure {
 				'repository.url'    => "git://github.com/gabrielmad/%n",
 				'repository.web'    => "http://github.com/gabrielmad/%n",
 				'bugtracker.web'    => "http://github.com/gabrielmad/%n/issues",
-				'bugtracker.mailto' => "bug-%n@rt.cpan.org",
+				'bugtracker.mailto' => "bug-%n\@rt.cpan.org",
 				'homepage'          => "http://metacpan.org/release/%n",
 			}
 		],
