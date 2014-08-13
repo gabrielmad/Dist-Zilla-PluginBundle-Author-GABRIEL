@@ -17,17 +17,14 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 =head1 DESCRIPTION
  
  The same of:
- 
+
 	[NameFromDirectory]
 	[VersionFromModule]
 
-	[MetaResources]
-	repository.type   = git
-	repository.url    = git://github.com/gabrielmad/${dist}
-	repository.web    = http://github.com/gabrielmad/${dist}
-	bugtracker.web    = http://github.com/gabrielmad/${dist}/issues
-	bugtracker.mailto = bug-${dist}@rt.cpan.org
-	homepage          = http://metacpan.org/release/${dist}
+	[AutoMetaResources]
+	repository.github = user:gabrielmad
+	bugtracker.github = user:gabrielmad
+	homepage          = http://metacpan.org/release/%{dist}
 
 	[GatherDir]
 	include_dotfiles = 1
@@ -77,13 +74,10 @@ sub configure {
 		'NameFromDirectory',
 		'VersionFromModule',
 		[
-			MetaResources => {
-				'repository.type'   => 'git',
-				'repository.url'    => 'git://github.com/gabrielmad/${dist}',
-				'repository.web'    => 'http://github.com/gabrielmad/${dist}',
-				'bugtracker.web'    => 'http://github.com/gabrielmad/${dist}/issues',
-				'bugtracker.mailto' => 'bug-${dist}@rt.cpan.org',
-				'homepage'          => 'http://metacpan.org/release/${dist}',
+			AutoMetaResources => {
+				'repository.github' => 'user:gabrielmad',
+				'bugtracker.github' => 'user:gabrielmad',
+				'homepage'          => "http://metacpan.org/release/%{dist}",
 			}
 		],
 		[ GatherDir  => { include_dotfiles => 1     }],
