@@ -16,6 +16,8 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
  
 =head1 DESCRIPTION
  
+ The same of:
+ 
 	[NameFromDirectory]
 	[VersionFromModule]
 
