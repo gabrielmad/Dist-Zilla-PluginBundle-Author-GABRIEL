@@ -18,11 +18,11 @@ sub configure {
 		[
 			MetaResources => {
 				'repository.type'   => 'git',
-				'repository.url'    => 'git://github.com/gabrielmad/%a',
-				'repository.web'    => 'http://github.com/gabrielmad/%a',
-				'bugtracker.web'    => 'http://github.com/gabrielmad/%a/issues',
-				'bugtracker.mailto' => 'bug-%a@rt.cpan.org',
-				'homepage'          => 'http://metacpan.org/release/%a',
+				'repository.url'    => "git://github.com/gabrielmad/%n",
+				'repository.web'    => "http://github.com/gabrielmad/%n",
+				'bugtracker.web'    => "http://github.com/gabrielmad/%n/issues",
+				'bugtracker.mailto' => "bug-%n@rt.cpan.org",
+				'homepage'          => "http://metacpan.org/release/%n",
 			}
 		],
 		[ GatherDir  => { include_dotfiles => 1     }],
@@ -97,11 +97,11 @@ version 0.01
 
 	[MetaResources]
 	repository.type   = git
-	repository.url    = git://github.com/gabrielmad/%a
-	repository.web    = http://github.com/gabrielmad/%a
-	bugtracker.web    = http://github.com/gabrielmad/%a/issues
-	bugtracker.mailto = bug-%a@rt.cpan.org
-	homepage          = http://metacpan.org/release/%a
+	repository.url    = git://github.com/gabrielmad/%n
+	repository.web    = http://github.com/gabrielmad/%n
+	bugtracker.web    = http://github.com/gabrielmad/%n/issues
+	bugtracker.mailto = bug-%n@rt.cpan.org
+	homepage          = http://metacpan.org/release/%n
 
 	[GatherDir]
 	include_dotfiles = 1
