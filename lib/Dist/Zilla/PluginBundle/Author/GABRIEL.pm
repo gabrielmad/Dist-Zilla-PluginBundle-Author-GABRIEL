@@ -11,12 +11,12 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 
 =head1 SYNOPSIS
  
-    # in dist.ini
+    ; in dist.ini
     [@Author::GABRIEL]
  
 =head1 DESCRIPTION
  
- The same of:
+The same of:
 
 	[NameFromDirectory]
 	[VersionFromModule]
