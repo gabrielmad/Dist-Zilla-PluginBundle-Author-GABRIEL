@@ -17,8 +17,8 @@ sub configure {
 		'VersionFromModule',
 		[
 			AutoMetaResources => {
-				'repository.github' => [{ user => 'gabrielmad' }],
-				'bugtracker.github' => [{ user => 'gabrielmad' }],
+				'repository.github' => [ user => 'gabrielmad' ],
+				'bugtracker.github' => [ user => 'gabrielmad' ],
 				'homepage'          => "http://metacpan.org/release/%{dist}",
 			}
 		],
