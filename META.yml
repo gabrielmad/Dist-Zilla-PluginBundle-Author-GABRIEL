@@ -18,7 +18,7 @@ requires:
   Moose: 0
   perl: 5.006
 resources:
-  bugtracker: http://github.com/gabrielmad/${dist}/issues
-  homepage: http://metacpan.org/release/${dist}
-  repository: git://github.com/gabrielmad/${dist}
+  bugtracker: https://github.com/gabrielmad,/dist-zilla-pluginbundle-author-gabriel/issues
+  homepage: http://metacpan.org/release/Dist-Zilla-PluginBundle-Author-GABRIEL,
+  repository: git://github.com/gabrielmad,/dist-zilla-pluginbundle-author-gabriel.git
 version: 0.01
