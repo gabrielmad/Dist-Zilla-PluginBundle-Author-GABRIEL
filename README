@@ -6,11 +6,11 @@ VERSION
     version 0.01
 
 SYNOPSIS
-        # in dist.ini
+        ; in dist.ini
         [@Author::GABRIEL]
 
 DESCRIPTION
-     The same of:
+    The same of:
 
             [NameFromDirectory]
             [VersionFromModule]
