@@ -16,12 +16,12 @@ sub configure {
 		'VersionFromModule',
 		[
 			MetaResources => {
-				'repository.type'   => 'git'
-				'repository.url'    => 'git://github.com/gabrielmad/${dist}'
-				'repository.web'    => 'http://github.com/gabrielmad/${dist}'
-				'bugtracker.web'    => 'http://github.com/gabrielmad/${dist}/issues'
-				'bugtracker.mailto' => 'bug-${dist}@rt.cpan.org'
-				'homepage'          => 'http://metacpan.org/release/${dist}'
+				'repository.type'   => 'git',
+				'repository.url'    => 'git://github.com/gabrielmad/${dist}',
+				'repository.web'    => 'http://github.com/gabrielmad/${dist}',
+				'bugtracker.web'    => 'http://github.com/gabrielmad/${dist}/issues',
+				'bugtracker.mailto' => 'bug-${dist}@rt.cpan.org',
+				'homepage'          => 'http://metacpan.org/release/${dist}',
 			}
 		],
 		[ GatherDir  => { include_dotfiles => 1     }],
