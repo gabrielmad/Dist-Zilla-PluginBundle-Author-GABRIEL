@@ -18,11 +18,11 @@ sub configure {
 		[
 			MetaResources => {
 				'repository.type'   => 'git',
-				'repository.url'    => "git://github.com/gabrielmad/%n",
-				'repository.web'    => "http://github.com/gabrielmad/%n",
-				'bugtracker.web'    => "http://github.com/gabrielmad/%n/issues",
-				'bugtracker.mailto' => "bug-%n\@rt.cpan.org",
-				'homepage'          => "http://metacpan.org/release/%n",
+				'repository.url'    => "git://github.com/gabrielmad/%{dist}",
+				'repository.web'    => "http://github.com/gabrielmad/%{dist}",
+				'bugtracker.web'    => "http://github.com/gabrielmad/%{dist}/issues",
+				'bugtracker.mailto' => "bug-%{dist}\@rt.cpan.org",
+				'homepage'          => "http://metacpan.org/release/%{dist}",
 			}
 		],
 		[ GatherDir  => { include_dotfiles => 1     }],
@@ -97,11 +97,11 @@ version 0.01
 
 	[MetaResources]
 	repository.type   = git
-	repository.url    = git://github.com/gabrielmad/%n
-	repository.web    = http://github.com/gabrielmad/%n
-	bugtracker.web    = http://github.com/gabrielmad/%n/issues
-	bugtracker.mailto = bug-%n@rt.cpan.org
-	homepage          = http://metacpan.org/release/%n
+	repository.url    = git://github.com/gabrielmad/%{dist}
+	repository.web    = http://github.com/gabrielmad/%{dist}
+	bugtracker.web    = http://github.com/gabrielmad/%{dist}/issues
+	bugtracker.mailto = bug-%{dist}@rt.cpan.org
+	homepage          = http://metacpan.org/release/%{dist}
 
 	[GatherDir]
 	include_dotfiles = 1
