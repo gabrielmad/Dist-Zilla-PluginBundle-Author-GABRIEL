@@ -18,7 +18,7 @@ sub configure {
 		[
 			AutoMetaResources => {
 				'repository.github' => [{ user => 'gabrielmad' }],
-			    'bugtracker.github' => [{ user => 'gabrielmad' }],
+				'bugtracker.github' => [{ user => 'gabrielmad' }],
 				'homepage'          => "http://metacpan.org/release/%{dist}",
 			}
 		],
@@ -92,12 +92,9 @@ version 0.01
 	[NameFromDirectory]
 	[VersionFromModule]
 
-	[MetaResources]
-	repository.type   = git
-	repository.url    = git://github.com/gabrielmad/%{dist}
-	repository.web    = http://github.com/gabrielmad/%{dist}
-	bugtracker.web    = http://github.com/gabrielmad/%{dist}/issues
-	bugtracker.mailto = bug-%{dist}@rt.cpan.org
+	[AutoMetaResources]
+	repository.github = user:gabrielmad
+	bugtracker.github = user:gabrielmad
 	homepage          = http://metacpan.org/release/%{dist}
 
 	[GatherDir]
